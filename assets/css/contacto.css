@@ -1,0 +1,78 @@
+
+.contacto{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background-color: #cad2c55d;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contacto__formulario{
+    width: 20rem;
+}
+
+.contacto__conjuntoCampos{
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    height: 3rem;
+    margin: 2rem 0;
+    border-radius: 4px;
+    padding: 0.5rem 0.5rem;
+}
+
+.contacto__etiqueta{
+    font-size: 11px;
+    line-height: 14px;
+    color: #A2A2A2;
+}
+
+.contacto__campo{
+    border: none;
+    margin-top: 0.3rem;
+    padding: 0.4rem 0;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #464646;
+}
+
+.contacto__conjuntoCampos--asunto{
+    justify-content: center;
+}
+
+.contacto__mensaje{
+    resize: none;
+    overflow: hidden;
+    border-color: transparent;
+    border-radius: 4px;
+    margin-top: 0.3rem;
+    padding: 0.4rem;
+    color: #A2A2A2;
+    width: 100%;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.contacto__campo:focus,.contacto__mensaje:focus{
+    outline: none;
+}
+
+@media screen and (min-width:0)  {
+    .contacto__conjuntoCampos,.contacto__mensaje{
+        width: 85%;
+    }
+    
+	    
+}
+
+@media screen and (min-width:762px)  {
+    
+}
+
+@media screen and (min-width:962px)  {
+    .contacto__conjuntoCampos,.contacto__mensaje{
+        width: 100%;
+    }
+}

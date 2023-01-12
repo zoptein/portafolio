@@ -1,0 +1,85 @@
+
+.experiencia{
+    display: flex;
+    flex-direction: column;
+    background-color: #f3f3f3;
+}
+
+.experiencia__contenido{
+    display: flex;
+    flex-direction: row;
+    margin: 2rem 0;
+}
+
+
+.experiencia__titulo{
+    font-size: 12px;
+    font-weight: 700;
+    color: #464646;
+    line-height: 20px;
+}
+
+.experiencia__descripcion{
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.experiencia__acceso{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.experiencia__boton{
+    width: 8rem;
+    height: 2rem;
+    text-align: center;
+
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    border-radius: 3px;
+    border-color: #cad2c55d;
+}
+
+.experiencia__boton--normal{
+    background-color: #cad2c5e0;
+    color: #fff;
+}
+
+.experiencia__boton--inverso{
+    color: #8f948c;
+    background-color: transparent;
+}
+
+
+
+@media screen and (min-width:0)  {
+    .experiencia__imagen{
+        width: 14rem;
+    }
+    .experiencia__contenido{
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:762px)  {
+    .experiencia__imagen{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width:962px)  {
+    .experiencia__imagen{
+        width: 50rem;
+    }
+
+    .experiencia__acceso{
+        margin-left: 2rem;
+    }
+
+    
+    .experiencia__contenido{
+        flex-direction: row;
+    }
+}

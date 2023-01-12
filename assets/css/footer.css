@@ -1,0 +1,12 @@
+
+.pieDePagina{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pieDePagina__descripcion{
+    margin: 0.3rem 0;
+    font-size: 9px;
+}
